@@ -35,6 +35,8 @@ p {
 .wraper {
   display: flex;
   flex-direction: column;
+  min-width: 1200px;
+  overflow: hidden;
 }
 .container {
   margin: auto;
@@ -82,7 +84,11 @@ height: 119px;
   display: flex;
   align-items: center;
 }
+.header__coll--align--right{
+  display: flex;
+  justify-content: flex-end;
 
+}
 .footer-container .menu {
   margin-right: 0;
 }
@@ -110,6 +116,7 @@ height: 119px;
 .contacts {
   font-style: normal;
   text-align: right;
+  position: relative;
 }
 
 .contacts__phone {
@@ -123,22 +130,27 @@ height: 119px;
   margin-top: -5px;
   font-size: 13px;
   text-decoration: underline;
+  
 }
-
+.contacts:hover .contacts__dropdown-desc{
+ display: block;
+}
 .contacts__desc {
   color: #9a9a9a;
   font-size: 11px;
 }
 .contacts__dropdown-desc {
-  display: block;
+position: absolute;
+    display: none;
   font-weight: bold;
   font-size: 13px;
-
   background: #ededed;
   color: #1e1f20;
-  margin: 22px 19px 37px 19;
+  padding: 19px 15px;
+  width: 160px;
+  text-align: center;
+  top: 100%;
 }
-
 .hero__content {
   width: 100%;
   margin-left: 15px;
@@ -173,15 +185,21 @@ height: 119px;
   display: inline-block;
   border-radius: 26px;
   text-transform: uppercase;
-
-  text-decoration: none;
+  text-decoration: none;  
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+}
+.btn--color--home {
+  background-color: #f5170e;
+  padding: 18px 58px;
 }
 
 .btn--color--red {
   background-color: #f5170e;
-  color: #ffffff;
   margin-bottom: 23px;
-
   padding: 14px 33px;
 }
 
@@ -195,7 +213,7 @@ height: 119px;
   background-color: #ffffff;
   color: #f5170e;
   padding: 15px 21px;
-  margin-left: 24px;
+  margin-left: 20px;
 }
 
 .btn--color--with:hover {
@@ -213,7 +231,7 @@ height: 119px;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 38px;
-  margin-left: 18px;
+  
 }
 
 .section__title-fire::after {
@@ -271,11 +289,12 @@ height: 119px;
   line-height: 21px;
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 25px;
 }
 
 .offers__title {
   font-size: 24px;
-  margin: 28px 0 18px 19px;
+  margin: 28px 0 18px 22px;
 }
 
 .offers__value-cell {
@@ -462,6 +481,7 @@ height: 119px;
   justify-content: space-between;
   align-items: center;
   height: 154px;
+  
 }
 
 .footer__coll--align--left {
@@ -478,6 +498,7 @@ height: 119px;
   background-color: #001821;
   margin-top: auto;
   width: 100%;
+
 }
 .footer-container .menu:last-child {
   margin-right: 0;
