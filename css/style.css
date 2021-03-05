@@ -560,3 +560,11 @@ font-weight: bold;
 .footer-container__content {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
+
+.service{
+  background-image: url("../images/bg/headline.jpg");
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
