@@ -41,6 +41,7 @@ p {
 .container {
   margin: auto;
   max-width: 1140px;
+  
 }
 .home{
   background: url("/images/bg/bg.png");
@@ -383,6 +384,9 @@ font-weight: bold;
   margin-top: -70px;
   margin-bottom: 74px;
 }
+.pager-service{
+  margin-top: 0;
+}
 .pager__nav {
   display: flex;
   flex-direction: row;
@@ -424,6 +428,10 @@ font-weight: bold;
 .pager__link:hover {
   background-color: #ffffff;
   color: #f5170e;
+}
+.pager__link--service:hover{
+  background-color: #f5170e;
+  color: #ffffff;
 }
 .about-section {
   margin-bottom: 38px;
@@ -564,7 +572,12 @@ font-weight: bold;
 .service{
   background-image: url("../images/bg/headline.jpg");
   height: 412px;
+
+}
+.service__wraper{
+  height: 412px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
+  justify-content: space-between; 
+  margin-bottom: 220px;
 }
