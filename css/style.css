@@ -386,6 +386,8 @@ font-weight: bold;
 }
 .pager-service{
   margin-top: 0;
+  color:black;
+  padding-bottom: 56px;
 }
 .pager__nav {
   display: flex;
@@ -428,6 +430,9 @@ font-weight: bold;
 .pager__link:hover {
   background-color: #ffffff;
   color: #f5170e;
+}
+.pager__link--service{
+  color:black
 }
 .pager__link--service:hover{
   background-color: #f5170e;
@@ -572,7 +577,7 @@ font-weight: bold;
 .service{
   background-image: url("../images/bg/headline.jpg");
   height: 412px;
-
+  
 }
 .service__wraper{
   height: 412px;
@@ -580,4 +585,34 @@ font-weight: bold;
   flex-direction: column;
   justify-content: space-between; 
   margin-bottom: 220px;
+}
+.features-wraper{
+  background:#ffffff;
+  padding-top: 98px;
+}
+.features__coll{
+  display: flex;
+  flex-direction: row;
+ 
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #303030;
+margin-bottom: 48px;
+
+}
+.features__desc{
+  display: flex;
+  flex-direction: column;
+  margin-left: 56px;
+  justify-content: space-between;
+}
+.features__img{
+  width: 460px;
+height: 333px;
+}
+.features__img img{
+  width: 460px;
+  height: 333px;
 }
