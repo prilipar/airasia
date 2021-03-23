@@ -679,12 +679,12 @@ p {
 .feedback__list {
   column-count: 2;
   column-gap: 2px;
-  border: 2px solid red;
+  
   text-align: center;
   
 }
 .feedback__items {
-  border: 2px solid green;
+  
   list-style: none;
   display: inline-flex;
   flex-direction: column;
