@@ -220,7 +220,9 @@ p {
   background-color: #da0100;
   color: #ffffff;
 }
-
+.hero__breadcrumbs{
+  padding-bottom: 24px;
+}
 .section {
   display: flex;
   margin-bottom: 119px;
@@ -676,9 +678,13 @@ p {
 }
 .feedback__list {
   column-count: 2;
-  column-gap: 26px;
+  column-gap: 2px;
+  border: 2px solid red;
+  text-align: center;
+  
 }
 .feedback__items {
+  border: 2px solid green;
   list-style: none;
   display: inline-flex;
   flex-direction: column;
