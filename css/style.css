@@ -220,7 +220,7 @@ p {
   background-color: #da0100;
   color: #ffffff;
 }
-.hero__breadcrumbs{
+.hero__breadcrumbs {
   padding-bottom: 24px;
 }
 .section {
@@ -679,12 +679,10 @@ p {
 .feedback__list {
   column-count: 2;
   column-gap: 2px;
-  
+
   text-align: center;
-  
 }
 .feedback__items {
-  
   list-style: none;
   display: inline-flex;
   flex-direction: column;
@@ -718,7 +716,7 @@ p {
   color: #2e77a4;
 
   font-family: Open Sans;
- 
+
   font-weight: bold;
   font-size: 24px;
 }
@@ -778,6 +776,110 @@ p {
   line-height: 65px;
   width: 595px;
 }
-.form__item {
+.form-wraper {
+  background: #f4f5f5;
+  height: 799px;
+  padding-bottom: 96px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 24px;
+}
+.form__input {
+  flex: 1;
+  margin-right: 28px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  padding: 30px 20px;
+}
+.form__input:focus {
+  outline: 0;
+  outline-offset: 0;
+  color: #000;
+  border-color: #f5170e;
+}
+.form__input-comment {
+  height: 250px;
+  padding: 30px;
+
+  resize: none;
+}
+.form__input:last-child {
+  margin-right: 0;
+}
+.form__title {
+  font-size: 48px;
+  line-height: 65px;
+  color: #1a1b1e;
+  padding-top: 62px;
+  padding-bottom: 57px;
+}
+.options {
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  flex:1;
+}
+.options__title {
+  font-size: 18px;
+  line-height: 25px;
+  width: 50%;
+  margin-right: 73px;
+}
+.options__list {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  
+}
+
+.options-list__checkbox-btn {
+  display: inline-block;
+  background: #e7e7e7;
+  padding: 10px 15px;
+  border-radius: 35px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.options-list__checkbox:checked + .options-list__checkbox-btn{
+  background: #B9EAE4;
+
+}
+input[type="checkbox"]{
+  display: none;
+}
+.options-list__label{
+  cursor: pointer;
+}
+.form__btn{
+  width: 168px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-right: 17px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+font-size: 14px;
+line-height: 19px;
+}
+.form__btn:last-child{
+  margin-right: 0;
+}
+.form__btn-black{
+  background:#000;
+}
+.form__btn-red{
+  background:#F5170E;
+}
+.form__row-action{
+  justify-content: flex-end;
+  margin-top: 32px;
+  margin-bottom: 96px;
 }

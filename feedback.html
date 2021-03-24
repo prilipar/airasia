@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>AirAsia|Обратная связь</title>
 </head>
+
 <body>
   <div class="wrapper">
     <div class="service">
@@ -230,20 +231,102 @@
 
       </div>
     </section>
-    <!-- <section class="form-wraper">
+    <section class="form-wraper">
       <div class="container">
-        <div class="form">
+        <div class="form-holder">
           <h2 class="form__title">
             Оставьте отзыв
           </h2>
-          <ul class="form__list">
-            <li class="form__item">
-              <input type="text" name="" class="form__input" id="">
-            </li>
-          </ul>
+          <form action="" method="POST" class="form">
+            <div class="form__row">
+              <input type="text" name="name" class="form__input" id="" placeholder="Введие имя">
+              <input type="text" name="social" class="form__input" id="" placeholder="Ссылка на профиль VK">
+            </div>
+            <div class="form__row form__row-feedback">
+              <textarea name="comment" id="" cols="30" rows="10" class="form__input form__input-comment"
+                placeholder="Напишите свой честный отзыв ;)"></textarea>
+            </div>
+            <div class="form__row">
+              <div class="options form__options">
+                <div class="options__title">
+                  Какими услугами компании пользуетесь?
+                </div>
+                <ul class="options__list options-list">
+                  <li class="options-list__item">
+                    <label class="options-list__label">
+                      <input type="checkbox" class="options-list__checkbox" name=""">
+                      <div class="options-list__checkbox-btn">
+                        Остров обезьян
+                      </div>  
+                    </label>
+                                       
+                  </li>
+                  <li class="options-list__item">
+                    <label class="options-list__label">
+                      <input type="checkbox" class="options-list__checkbox" name=""">
+                      <div class="options-list__checkbox-btn">
+                        Тур по Тайланду
+                      </div>  
+                    </label>
+                                       
+                  </li>
+                  <li class="options-list__item">
+                    <label class="options-list__label">
+                      <input type="checkbox" class="options-list__checkbox" name=""">
+                      <div class="options-list__checkbox-btn">
+                        Водопад Янг-бей
+                      </div>  
+                    </label>
+                                       
+                  </li>
+                  <li class="options-list__item">
+                    <label class="options-list__label">
+                      <input type="checkbox" class="options-list__checkbox" name=""">
+                      <div class="options-list__checkbox-btn">
+                        Тур по Индонезии
+                      </div>  
+                    </label>
+                                       
+                  </li>
+                  <li class="options-list__item">
+                    <label class="options-list__label">
+                      <input type="checkbox" class="options-list__checkbox" name=""">
+                      <div class="options-list__checkbox-btn">
+                        Никакими
+                      </div>  
+                    </label>
+                                       
+                  </li>
+                  <li class="options-list__item">
+                    <label class="options-list__label">
+                      <input type="checkbox" class="options-list__checkbox" name=""">
+                      <div class="options-list__checkbox-btn">
+                        Тур по Бали
+                      </div>  
+                    </label>
+                                       
+                  </li>
+                  <li class="options-list__item">
+                    <label class="options-list__label">
+                      <input type="checkbox" class="options-list__checkbox" name=""">
+                      <div class="options-list__checkbox-btn">
+                        Другое
+                      </div>  
+                    </label>
+                                       
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="form__row form__row-action">
+             <button type="reset" class="form__btn form__btn-black">Очистить</button> 
+             <button type="submit" class="form__btn form__btn-red">Отправить</button>
+             </div>
+          </form>
+
         </div>
       </div>
-    </section> -->
+    </section>
     <footer class="footer-container">
       <div class="container footer-container__content">
         <div class="footer">
