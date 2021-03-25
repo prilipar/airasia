@@ -709,11 +709,14 @@ p {
 .feedback {
   padding-top: 98px;
 }
+.feedback__desc{
+  display: flex;
+  flex-direction:column;
+}
 .feedback__list {
   column-count: 2;
   column-gap: 2px;
 
-  text-align: center;
 }
 .feedback__items {
   list-style: none;
