@@ -393,7 +393,21 @@ font-size: 14px;
   flex-wrap: wrap;
   justify-content: center;
 }
-
+.svg{
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  
+}
+.svg-box{
+  padding-right: 74px;
+}
+.svg-icon{
+  fill: #B3B3B3;
+}
+.svg-icon:hover{
+  fill: #7d7d80;
+}
 .news__pic {
   display: block;
   width: 100%;
@@ -565,6 +579,7 @@ font-size: 14px;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  
 }
 .footer-container {
   background-color: #001821;
