@@ -286,7 +286,7 @@ font-size: 14px;
   flex-direction: row;
 }
 
-.section__title {
+.section__title about__title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 38px;
@@ -299,7 +299,7 @@ font-size: 14px;
   width: 21px;
   height: 28px;
 }
-.section__title-color-black {
+.section__title-color-black .about__title-color-black{
   color: #000000;
 }
 
@@ -404,6 +404,7 @@ font-size: 14px;
 }
 .svg-icon{
   fill: #B3B3B3;
+  cursor: pointer;
 }
 .svg-icon:hover{
   fill: #7d7d80;
@@ -947,6 +948,7 @@ input[type="checkbox"]{
   font-weight: bold;
 font-size: 14px;
 line-height: 19px;
+cursor: pointer;
 }
 .form__btn:last-child{
   margin-right: 0;
